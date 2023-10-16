@@ -4,7 +4,7 @@
 
 Вот так он выглядит: 
 
-![Иллюстрация к проекту](https://github.com/jiezzzzzzz/video-player/raw/master/Снимок экрана от 2023-10-16 14-57-31.png)
+![Иллюстрация к проекту](https://github.com/jiezzzzzzz/video-player/raw/master/player.png)
 
 Плеер использует [font-awesome](https://fontawesome.ru/)
 Библлиотека, с помощью которой это было создано - [тут](https://github.com/devmanorg/video-player-jslib)
