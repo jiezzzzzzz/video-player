@@ -7,7 +7,8 @@
 ![Иллюстрация к проекту](https://github.com/jiezzzzzzz/video-player/raw/master/player.png)
 
 Плеер использует [font-awesome](https://fontawesome.ru/)
-Библлиотека, с помощью которой это было создано - [тут](https://github.com/devmanorg/video-player-jslib)
+
+Библиотека, с помощью которой это было создано - [тут](https://github.com/devmanorg/video-player-jslib)
 
 Посмотреть в действии - [здесь](https://jiezzzzzzz.github.io/video-player/)
 
