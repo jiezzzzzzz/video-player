@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Пример подключения плеера</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="static/css/normalize.css">
+  <link rel="stylesheet" href="static/css/font-awesome.min.css">
+  <link rel="stylesheet" href="static/css/main.css">
+  <style type="text/css">
+       .player-control {
+          background-color: #000000;
+       }
+       .player-control > button {
+                cursor: pointer;
+                border-style: none;
+                cursor: pointer;
+                background-color: transparent;
+      }
+      .content {
+                width: 1800px;
+                height: 1600px;
+                background-color: #696969;
+      }
+      #player {
+                  display: flex;
+                  flex-direction: column;
+                  flex-grow: 1;
+                  width: 800px;
+                  height: 600px;
+                  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+                  padding: 10px;
+      }
+      .js-video-container {
+                          flex-grow: 1;
+      }
+      .i {
+         font-weight: 900;
+      }
+      </style>
+</head>
+
+<body>
+
+  <div id="player">
+    <div class="js-video-container"></div>
+
+    <div class="player-control">
+      <button type="button" class="js-play-button player-button">
+          <i class="fa fa-play" aria-hidden="true"></i>
+      </button>
+      <button type="button" class="js-pause-button player-button" hidden>
+              <i class="fa fa-pause" aria-hidden="true"></i>
+          </button>
+      <button type="button" class="js-mute-button player-button">
+        <i class="fa fa-volume-off" aria-hidden="true"></i>
+      </button>
+      <button type="button" class="js-volume-button player-button">
+        <i class="fa fa-volume-up" aria-hidden="true"></i>
+      </button>
+        </div>
+      </div>
+    </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://unpkg.com/playable@2.10.3/dist/statics/playable.bundle.min.js"></script>
+  <script src="static/player/js/player.js"></script>
+
+  <script type="text/javascript">
+    createPlayer({
+      elementId: 'player',
+      src: 'https://dvmn.org/media/filer_public/d0/16/d016d9b8-4180-4bb9-ad83-0241f61627b8/samsung_demo_-_alive_in_color.mp4',
+    });
+  </script>
+
+</body>
+</html>
