@@ -1,27 +1,7 @@
 :root {
     font-family: "Roboto", sans-serif;
-    color: black;
+    color: white;
 }
-
-.vp-button_volume{
-    margin-left: 10px;
-    margin-top: 8px;
-    font-size: 125%;
-    height: 30px;
-    width: 30px;
-    }
-
-.vp-button_video{padding-right: 5px;
-    padding-left: 10px;
-    font-size: 125%;
-    width: 30px;
-    height: 45px;}
-
-.vp-button_full_screen{
-    padding-left: 0px;
-    font-size: 125%;
-    width: 30px;
-    height: 45px;}
 
 .player-main {
     display: flex;
